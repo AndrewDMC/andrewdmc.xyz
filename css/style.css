@@ -26,17 +26,15 @@ body {
 		background-position: 0% 50%;
 	}
 }
-.Title h1{
+.landing-page h1{
 
-    text-align: center;
-    padding-top: 25%;
+    display: flex;
+	justify-content: center;
+	padding-top: 20%;
+
+
     color: aliceblue;
     font-size: 400%;
 
 }
 
-.expand_more img{
-
-    width: 100px;
-
-}
