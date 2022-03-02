@@ -25,10 +25,13 @@ body {
 		background-position: 0% 50%;
 	}
 }
+.landing-page h1{
 
-.landing-page h1 {
-    text-align: center;
-    margin-top: auto;
+    display: flex;
+	justify-content: center;
+	padding-top: 20%;
+
+
     color: aliceblue;
     font-size: 400%;
 }
