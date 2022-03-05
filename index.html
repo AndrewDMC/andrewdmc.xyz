@@ -5,14 +5,14 @@
 
         <title>AndrewDMC</title>
         <link rel="stylesheet" href="css/style.css">
-        <script src="js/jquery.js"></script>
+        <script src="js/script.js"></script>
         <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
         <meta name="theme-color" content="rgb(10,10,10)">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Harmattan:wght@400;700&display=swap" rel="stylesheet">
         <!---Icon--->
-        <link rel="icon" href="src/icon.png">
+        <link rel="icon" href="src/icon.svg">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     </head>
@@ -20,12 +20,16 @@
     <body> 
         <nav class="nav-bar">
 
-            <img src="src/icon.png" alt="Profile pic in navbar">
-            <div class="nav-button">
-
-                <button>Home</button>
-
-            </div>
+            <img src="src/icon.svg" alt="Profile pic in navbar">
+            <div class="nav-button" id="myTopnav">
+                <a href="#home" class="active">Home</a>
+                <a href="#news">Projects</a>
+                <a href="#contact">Tools</a>
+                <a href="#about">About</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+              </div>
 
         </nav>
         

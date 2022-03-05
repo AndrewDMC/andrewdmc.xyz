@@ -17,25 +17,70 @@ body{
   border-bottom: solid 0.5px;
   border-color: rgb(189, 189, 189);
   position: absolute;
+  overflow: hidden;
+  background-color: #111;
 
 
 }
 .nav-bar img{
 
-  width: 4%;
+  width: 3.6%;
   
   
 
 }
+.nav-button{
 
-.nav-button button{
-
-  margin-right: 1%;
-  background: transparent;
-  width: 10%;
-  color: rgb(240, 248, 255);
-  font-family: 'IBM Plex Mono', monospace;
   
-    
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
+}
+.nav-button a {
+
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  align-items: center;
+  margin: 1% 1%;
+  padding: 2% 2%;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'IBM Plex Mono', monospace;
+  border-radius: 4px;
+  min-height: 25px;
+  
+
+}
+.nav-button .icon {
+  display: none;
+}
+
+.nav-button a:hover {
+  background-color: rgb(114, 114, 114);
+  color: rgb(255, 255, 255);
+  
+}
+@media screen and (max-width: 600px) {
+  .nav-button a:not(:first-child) {display: none;}
+  .nav-button a.icon {
+    float: right;
+    display: block;
+  }
+}
+@media screen and (max-width: 600px) {
+  .nav-button.responsive {position: relative;}
+  .nav-button.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .nav-button.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
 }
