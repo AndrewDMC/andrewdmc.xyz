@@ -55,32 +55,27 @@ body{
   
 
 }
-.nav-button .icon {
-  display: none;
-}
 
 .nav-button a:hover {
   background-color: rgb(114, 114, 114);
   color: rgb(255, 255, 255);
   
 }
+
 @media screen and (max-width: 600px) {
-  .nav-button a:not(:first-child) {display: none;}
-  .nav-button a.icon {
-    float: right;
-    display: block;
+  
+  .nav-bar img{
+
+    width: 13%;
+
   }
-}
-@media screen and (max-width: 600px) {
-  .nav-button.responsive {position: relative;}
-  .nav-button.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
+
+  .nav-button{
+    width: 70%;
   }
-  .nav-button.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
+  .nav-button a{
+
+    font-size: 15px;
+
   }
 }

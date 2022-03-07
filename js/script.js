@@ -1,9 +1,8 @@
-/* Open */
-function openNav() {
-    document.getElementById("myNav").style.width = "35%";
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "nav-bar") {
+    x.className += " responsive";
+  } else {
+    x.className = "nav-bar";
   }
-  
-  /* Close */
-  function closeNav() {
-    document.getElementById("myNav").style.width = "0%";
-  }
+}
