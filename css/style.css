@@ -23,12 +23,13 @@
 h1,h3,h4{
 
   font-family: 'IBM Plex Mono', monospace;
+  font-weight: 400;
 
 }
 h2,p,li{
 
   font-family: 'IBM Plex Mono', monospace;
-  font-weight: 400;
+  font-weight: 300;
   color:#f2f2f2;
 }
 
@@ -166,6 +167,7 @@ body{
   color: #f2f2f2;
 }
 
+
 @media screen and (max-width: 800px) {
   
   .nav-bar img{
@@ -185,7 +187,7 @@ body{
   .landing-page{
 
     padding-top: calc(var(--navy) + 16%);
-    font-size: 15px;
+    font-size: 12px;
 
   }
   .landing-page p{
@@ -197,13 +199,13 @@ body{
 
     padding: 0;
     padding-top: 26%;
-    font-size: 18px;
+    font-size: 16px;
     margin-left: 3%;
 
   }
   .projects-section li{
 
-    font-size: 18px;
+    font-size: 12px;
 
   }
 }
