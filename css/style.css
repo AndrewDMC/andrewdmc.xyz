@@ -25,12 +25,22 @@ h1,h3,h4{
   font-family: 'IBM Plex Mono', monospace;
 
 }
-h2,p{
+h2,p,li{
 
   font-family: 'IBM Plex Mono', monospace;
   font-weight: 400;
+  color:#f2f2f2;
+}
 
-}   d
+a{
+
+  color: #f2f2f2;
+  font-weight: 500;
+  text-decoration: none;
+  
+
+}
+
 
 body{
 
@@ -133,15 +143,28 @@ body{
 
 
 }
-.landing-page a{
 
-  color: #f2f2f2;
-  font-weight: 500;
-  text-decoration: none;
+.projects-section{
+
   
+  width: 70%;
+  height: 60%;
+  
+  padding-top: 13%;
+  margin: auto;
+
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+
 
 }
 
+.projects-section li{
+
+  font-size: 22px;
+  color: #f2f2f2;
+}
 
 @media screen and (max-width: 800px) {
   
@@ -168,6 +191,19 @@ body{
   .landing-page p{
 
     padding-top: 6%;
+
+  }
+  .projects-section{
+
+    padding: 0;
+    padding-top: 26%;
+    font-size: 18px;
+    margin-left: 3%;
+
+  }
+  .projects-section li{
+
+    font-size: 18px;
 
   }
 }
