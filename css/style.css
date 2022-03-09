@@ -217,6 +217,11 @@ span.material-icons-outlined{
     font-size: 12px;
 
   }
+  span.material-icons-outlined{
+
+    font-size: 22px;
+
+  }
 }
 @media screen and (max-width: 1100px){
 
