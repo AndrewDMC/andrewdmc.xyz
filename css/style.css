@@ -171,8 +171,8 @@ body{
 
 span.material-icons-outlined{
 
-  font-size: 32px;
-  vertical-align: bottom;
+  font-size: 30px;
+  vertical-align:middle;
 
 }
 
@@ -219,7 +219,7 @@ span.material-icons-outlined{
   }
   span.material-icons-outlined{
 
-    font-size: 22px;
+    font-size: 25px;
 
   }
 }
